@@ -15,11 +15,11 @@ sprite_sheet = spritesheet.SpriteSheet(sprite_sheet_image)
 BG = (50, 50, 50)
 BLACK = (0, 0, 0)
 
-
-frame_0 = sprite_sheet.get_image(0, 24, 24, 3, BLACK)
-frame_1 = sprite_sheet.get_image(1, 24, 24, 3, BLACK)
-frame_2 = sprite_sheet.get_image(2, 24, 24, 3, BLACK)
-frame_3 = sprite_sheet.get_image(3, 24, 24, 3, BLACK)
+sprite_sheet_image.set_colorkey(BLACK)
+frame_0 = sprite_sheet.get_image(0, 24, 24, 3)
+frame_1 = sprite_sheet.get_image(1, 24, 24, 3)
+frame_2 = sprite_sheet.get_image(2, 24, 24, 3)
+frame_3 = sprite_sheet.get_image(3, 24, 24, 3)
 
 run = True
 while run:
