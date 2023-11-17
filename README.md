@@ -1,2 +1,2 @@
 # pygame_tutorials
-Misc pygame tutorials
+Misc pygame tutorials.
